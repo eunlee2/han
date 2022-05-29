@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript" src="days.js"></script> 
+    <script type="text/javascript" src="write_date.js"></script> 
+    <link rel="stylesheet" href="Schedule_style.css">
+
+    
+    <tr id="week1">
+        <td class="sun"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="sat"></td> 
+     </tr>
+     <tr id="week2">
+           <td class="sun"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="sat"></td>
+     <!--화면을 클릭했을 때 일정 추가하라고 나오는 버튼-->
+     <div id="myModal" class="modal">
+        <div class= "modal-content">
+           <span class="close">&times;</span>
+           <p>오늘의 일정추가</p>
+           <input name = "t_schedule" type="text" value=" "/>
+           <br><br> 
+           <input type="button" name="add" value="Add"/>
+           <input type="button" name="cancel" value="Cancel"/>
+        </div>
+       </div>
+</body>
+</html>
